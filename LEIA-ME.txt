@@ -1,0 +1,22 @@
+WORDWALL BOT
+
+1. Instale:
+   py -m pip install pyautogui pillow pytesseract
+
+2. Instale o Tesseract OCR no Windows.
+
+3. Coloque wordwall_bot.py e perguntas.json na mesma pasta.
+
+4. Edite perguntas.json com suas perguntas e respostas.
+
+5. Se necessário, altere TESSERACT_PATH no wordwall_bot.py.
+
+6. Execute:
+   py wordwall_bot.py
+
+A interface possui:
+- INICIAR: inicia o monitoramento automático.
+- PARAR: interrompe o bot.
+- LER AGORA: executa OCR sem clicar.
+
+As regiões usadas são as especificadas no projeto.
